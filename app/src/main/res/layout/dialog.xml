@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/custom_dialog">
+
+    <ImageButton
+        android:id="@+id/imgBtnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/ic_cancel"
+        android:layout_gravity="end"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/are_you_sure"
+        android:textColor="#4B4B4B"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:padding="52dp"/>
+
+    <Button
+        android:id="@+id/btnYes"
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/yes"
+        android:textColor="#F15B2A"
+        android:background="@drawable/yes_button"/>
+
+</LinearLayout>
